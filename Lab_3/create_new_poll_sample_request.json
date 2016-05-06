@@ -1,16 +1,23 @@
 {
-	"name": "Second poll",
-	"usergroup": "Software",
-	"questions": [{
-		"question": "what is your favorite car",
-		"choices": [{
-			"choice": "Audi"
-		}, {
-			"choice": "BMW"
-		}, {
-			"choice": "Corvette"
-		}, {
-			"choice": "Tesla"
-		}]
-	}]
+  "questions": [
+    {
+      "choices": [
+        {
+          "choice": "Audi"
+        },
+        {
+          "choice": "BMW"
+        },
+        {
+          "choice": "Corvette"
+        },
+        {
+          "choice": "Tesla"
+        }
+      ],
+      "question": "what is your favorite car"
+    }
+  ],
+  "usergroup": "Software",
+  "name": "Second poll"
 }

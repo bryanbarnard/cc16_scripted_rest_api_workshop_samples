@@ -1,12 +1,19 @@
-[{
-"question": "what is your favorite film",
-"choices": [{
-"choice": "Avatar"
-}, {
-"choice": "Avengers"
-}, {
-"choice": "Toy Story"
-}, {
-"choice": "Frozen"
-}]
-}]
+[
+  {
+    "choices": [
+      {
+        "choice": "Avatar"
+      },
+      {
+        "choice": "Avengers"
+      },
+      {
+        "choice": "Toy Story"
+      },
+      {
+        "choice": "Frozen"
+      }
+    ],
+    "question": "what is your favorite film"
+  }
+]
