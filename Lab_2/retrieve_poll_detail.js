@@ -5,7 +5,7 @@
     pollRecord.get(id);
 
     var pollResponse = {
-        name: pollRecord.getValue("name"),
+        name: pollRecord.name,
         questions: pollHelper.getQuestions(id).as_list,
     };
     return pollResponse;
