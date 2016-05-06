@@ -26,5 +26,7 @@
 
     // Set response details
     response.setStatus(201);
-
+    response.setContentType("application/json");
+    var responseBody = '{"message":"Voting successful"}';
+    response.getStreamWriter().writeString(responseBody);
 })(request, response);
